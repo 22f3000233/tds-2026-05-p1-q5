@@ -1,0 +1,15 @@
+.venv/
+.env
+__pycache__/
+*.pyc
+bot_agent.db
+bot_agent.db-wal
+bot_agent.db-shm
+run.jsonl
+
+# Private engineering notes: internal debugging history, exact security
+# hardening internals, and known-unpatched sandbox limitations. Useful for
+# the maintainer, not for a public repo where it doubles as a hint sheet
+# for anyone trying to abuse the bot. See README.md for the public-facing
+# docs instead.
+ELI15.md
